@@ -1,4 +1,4 @@
-* ### -> The name of this project is CoffeeHouse.This technology basically shows the website of a street coffee stall which contains the company's marketing system. There are four types of pages 
+* ### -> The name of this project is RentRide.This technology basically shows the website of a RentRide vehicle. which contains the company's marketing system. There are four types of pages 
  * ### Home section
  * ### About section
  * ### Product section
@@ -12,4 +12,4 @@
   * ### box icons
 
 * ### -> This project is hosted live on Netlify :()
-* ### -> The source code for this project will be kept in Git hub :-()
+* ### -> The source code for this project will be kept in Git hub :-(https://github.com/sohanwebdevctg/html2-rentRide-project)
