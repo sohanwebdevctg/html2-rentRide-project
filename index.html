@@ -30,20 +30,32 @@
         <!-- desktop section start -->
          <div class="">
           <div class="container mx-auto px-5 sm:px-3 md:px-4 lg:px-5">
-            <div class="flex flex-col gap-2 items-center justify-center sm:flex-row sm:justify-between sm:items-center mx-auto h-20 sm:h-16 md:h-20">
+            <div class="flex gap-2 items-center justify-center  mx-auto h-20 sm:h-16 md:h-20">
               <!-- logo section start -->
-              <div>
-                  <a href="index.html">
-                    <span class="text-2xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl xl:text-3xl xl:text-2xl 2xl:text-3xl italic font-bold text-white">RentRide</span>
-                  </a>
+              <div class="flex justify-between items-center w-full">
+                  <div>
+                    <a href="index.html">
+                      <span class="text-2xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl xl:text-3xl xl:text-2xl 2xl:text-3xl italic font-bold text-white">RentRide</span>
+                    </a>
+                  </div>
+                  <details class="dropdown sm:hidden">
+                    <summary class="btn btn-sm bg-[#E76F51] hover:bg-orange-500 border-none"><i class='bx bx-menu text-xl text-white'></i></summary>
+                    <ul class="menu dropdown-content bg-[#E76F51] rounded-box z-[1] w-52 p-2 shadow right-0">
+                      <li><a class="text-xs text-slate-200" href="index.html">Home</a></li>
+                <li><a class="text-xs text-slate-200" href="#services">Services</a></li>
+                <li><a class="text-xs text-slate-200" href="#news">News</a></li>
+                <li><a class="text-xs text-slate-200" href="#faqs">FAQs</a></li>
+                    </ul>
+                  </details>
+                  
               </div>
               <!-- logo section end -->
               <!-- navigation section start -->
-              <ul class="flex items-center gap-5 sm:gap-5 md:gap-4 lg:gap-5 xl:gap-6 w-full justify-center sm:justify-end">
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="index.html">Home</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#">Services</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#">News</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#">FAQs</a></li>
+              <ul class="hidden sm:flex items-center gap-5 sm:gap-5 md:gap-4 lg:gap-5 xl:gap-6 w-full justify-center sm:justify-end">
+                <li><a class="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="index.html">Home</a></li>
+                <li><a class="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#services">Services</a></li>
+                <li><a class="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#news">News</a></li>
+                <li><a class="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#faqs">FAQs</a></li>
               </ul>
               <!-- navigation section end -->
             </div>
@@ -77,7 +89,7 @@
      </header>
     <!-- header section end -->
     <!-- service section start -->
-    <section id="service" class="pt-5 pb-6">
+    <section id="services" class="pt-5 pb-6">
       <div class="container mx-auto px-5 sm:px-3 md:px-4 lg:px-5">
         <!-- title section start -->
          <div>
@@ -557,7 +569,7 @@
         </footer>
         <!-- top footer section end -->
          <!-- horizontal section start -->
-         <hr class="my-5">
+         <hr class="my-5 text-slate-300">
          <!-- horizontal section end -->
          <!-- bottom footer section start -->
           <footer>

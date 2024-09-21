@@ -1,9 +1,8 @@
 * ### -> The name of this project is RentRide.This technology basically shows the website of a RentRide vehicle. which contains the company's marketing system. There are four types of pages 
  * ### Home section
- * ### About section
- * ### Product section
  * ### Service section
- * ### Contact section
+ * ### News section
+ * ### FAQs section
 
 * ### -> This project uses some framework and animations that make the website more beautiful which are listed below:-
   * ### tailwind
