@@ -2,7 +2,39 @@ html{
   scroll-behavior: smooth;
 }
 
-/* /* service section start */
+/* banner section start */
+.bannerImg{
+  animation: imgAng 3s infinite;
+  -webkit-animation: imgAng 3s infinite;
+}
+
+@keyframes imgAng {
+  0%{
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+}
+  50%{
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+}
+  100%{
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+}
+}
+
+/* banner section end */
+
+/* service section start */
 
 @keyframes showBox{
   from{
